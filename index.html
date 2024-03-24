@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="quiz.jpg" type="image">
+
+    <!-- For modern browsers -->
+    <link rel="icon" sizes="192x192" href="quiz.jpg">
+
+    <!-- For iPad with high-resolution Retina display running iOS ≥ 7 -->
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-quiz.jpg">
+
+    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7 -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-quiz.jpg">
+
+    <!-- For Google Chrome on Android -->
+    <link rel="icon" sizes="192x192" href="quiz.jpg">
+
+</head>
+
+<body>
+
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz.</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Codehal Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website</span>
+                        <span class="header-score"></span>
+                    </div>
+
+                    <h2 class="question-text"></h2>
+
+                    <div class="option-list">
+                        <div class="option">
+                            <span></span>
+                        </div>
+                        <div class="option">
+                            <span></span>
+                        </div>
+                        <div class="option">
+                            <span></span>
+                        </div>
+                        <div class="option">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total"></span>
+                        <button class="next-btn">Next</button>
+                        <button class="exit-btn1">Exit</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Quiz Result!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value"></span>
+                        </div>
+    
+                        <span class="score-text"></span>
+                    </div>
+    
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Website</h1>
+                    <p>Bienvenue sur notre site de quiz, où la connaissance rencontre l'enthousiasme !
+                       Que vous soyez un passionné de jeux-questionnaires 
+                       ou que vous recherchiez simplement une façon amusante de vous mettre au défi,
+                       vous êtes au bon endroit. Plongez dans un monde de quiz couvrant un large éventail de sujets,
+                       de l'histoire et de la science à la culture pop et au-delà. Testez vos connaissances,
+                       affrontez des amis et embarquez pour un voyage de découverte avec chaque question.
+                       Préparez-vous à libérer le champion du quiz qui sommeille en vous et 
+                       embarquez pour une aventure inoubliable d'apprentissage et de plaisir!</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>    
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1. Lisez attentivement chaque question avant de sélectionner votre réponse.</span>
+        <span class="info">2. le quiz sera en anglais.</span>
+        <span class="info">3. Si vous n'êtes pas sûr d'une réponse, essayez d'éliminer les options que vous savez incorrectes.</span>
+        <span class="info">4. Vérifiez vos réponses avant de soumettre le quiz.</span>
+        <span class="info">5. Restez concentré et évitez les distractions pendant le quiz.</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
